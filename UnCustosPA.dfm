@@ -1,0 +1,67 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 643
+  ClientWidth = 1154
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object GroupBox1: TGroupBox
+    Left = 0
+    Top = 0
+    Width = 1154
+    Height = 105
+    Align = alTop
+    Caption = 'GroupBox1'
+    TabOrder = 0
+    ExplicitLeft = 760
+    ExplicitTop = 184
+    ExplicitWidth = 185
+  end
+  object GroupBox2: TGroupBox
+    Left = 0
+    Top = 105
+    Width = 1154
+    Height = 433
+    Align = alClient
+    Caption = 'GroupBox2'
+    TabOrder = 1
+    ExplicitLeft = 752
+    ExplicitTop = 344
+    ExplicitWidth = 185
+    ExplicitHeight = 105
+    object DBGrid1: TDBGrid
+      Left = 2
+      Top = 15
+      Width = 1150
+      Height = 416
+      Align = alClient
+      TabOrder = 0
+      TitleFont.Charset = DEFAULT_CHARSET
+      TitleFont.Color = clWindowText
+      TitleFont.Height = -11
+      TitleFont.Name = 'Tahoma'
+      TitleFont.Style = []
+    end
+  end
+  object GroupBox3: TGroupBox
+    Left = 0
+    Top = 538
+    Width = 1154
+    Height = 105
+    Align = alBottom
+    Caption = 'GroupBox3'
+    TabOrder = 2
+    ExplicitLeft = 832
+    ExplicitTop = 536
+    ExplicitWidth = 185
+  end
+end
